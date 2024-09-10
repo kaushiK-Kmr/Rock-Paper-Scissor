@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: black;
+    background-color: rgb(255, 217, 252);
+    text-align: center;
+    align-items: center;
+}
+
+.Head{
+    font-size: 6vmin;
+    background-color: rgb(0, 5, 75);
+    color: aliceblue;
+    height: 8vh;
+    box-shadow: 0 0 1rem rgba(0,0,0,1);
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6vh;
+    line-height: 8vh;
+}
+
+.GmBtn{
+    color: ghostwhite;
+    background-color: black;
+    font-size: 3.5vmin;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    border: 0.8rem solid black;
+    margin-bottom: 10vmin;
+    margin-inline: 1rem;
+    cursor: pointer;
+}
+
+.desg{
+    font-size: 3vmin;
+    border-style: hidden;
+    width: 15vmin;
+    margin-bottom: 10vmin;
+    border-radius: 80%;
+    background-color: inherit;
+}
+
+.option:hover{
+    cursor: pointer;
+    opacity: 85%;
+}
+
+.Game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vmin;
+    margin-bottom: 1rem;
+}
+
+.option{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 25vmin;
+    width: 25vmin;
+    border-radius: 50%;
+    object-fit: inherit;
+}
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+    font-size: 5vmin;
+}
+
+.Response{
+    padding: 0.5rem;
+    background-color: #00054b;
+    color: azure;
+    border-radius: 0.5rem;
+    display: inline;
+    font-size: 3vmin;
+}
